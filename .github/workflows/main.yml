@@ -2,12 +2,12 @@ name: First workflowR
 
 on: 
     push:
-    branches: [ main ]
+        branches: [ main ]
     
 jobs:
   demo:
     runs-on: ubuntu-latest
 
-steps:
- - name: greetings
-   run: echo "Hello Ritish"
+        steps:
+            - name: greetings
+                run: echo "Hello Ritish"
