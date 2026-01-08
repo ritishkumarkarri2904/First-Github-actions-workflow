@@ -11,3 +11,8 @@ jobs:
       steps:
         - name: Greetings
           run: echo "This has to work this time"
+          run: |
+  echo "Hello Ritish"
+  echo "This is my first GitHub Action"
+  uname -a
+
