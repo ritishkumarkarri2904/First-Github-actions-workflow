@@ -1,0 +1,13 @@
+name: First workflowR
+
+on: 
+    push:
+    brnaches: [main]
+    
+Jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+steps:
+ - name: greetings
+   run: echo "Hello Ritish"
