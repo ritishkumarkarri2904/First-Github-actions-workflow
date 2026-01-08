@@ -1,0 +1,13 @@
+name: Another Try
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  first job:
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Greetings
+          run: echo "This has to work this time"
