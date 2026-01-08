@@ -2,9 +2,9 @@ name: First workflowR
 
 on: 
     push:
-    branches: [main]
+    branches: [ main ]
     
-Jobs:
+jobs:
   demo:
     runs-on: ubuntu-latest
 
